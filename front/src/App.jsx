@@ -6,15 +6,16 @@ import SplashScreen from './Splash'
 import Back from './Back'
 
 import "./index.css";
-import LandingPageHero from './Card'
+import ExampleCard from './Card'
+
 
 function App() {
 
 
   return (
     <>
-   
-     <LandingPageHero/>
+     <ExampleCard/>
+     
 
     </>
   )
