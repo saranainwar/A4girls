@@ -4,14 +4,18 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import SplashScreen from './Splash'
 import Back from './Back'
+
+import "./index.css";
+import LandingPageHero from './Card'
+
 function App() {
 
 
   return (
     <>
-    <Back/>
-     <SplashScreen/>
-     
+   
+     <LandingPageHero/>
+
     </>
   )
 }
