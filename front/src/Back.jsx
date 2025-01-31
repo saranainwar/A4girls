@@ -96,6 +96,7 @@ const ThreeJSTube = ({ onAnimationEnd }) => {  // Accept callback as prop
 
   return (
     <div>
+        
       {/* Canvas for Three.js */}
       <canvas
         ref={canvasRef}
